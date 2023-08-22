@@ -1,13 +1,13 @@
 # Constrained Generative Sampling of 6-DoF Grasps
 
-This repository provides the code for training VCGS, a position constrained generative 6-DoF grasp sampler, from the paper [Constrained Generative Sampling of 6-DoF Grasps](https://arxiv.org/pdf/2302.10745.pdf).
+This repository provides the code for training VCGS, a position-constrained generative 6-DoF grasp sampler, from the paper [Constrained Generative Sampling of 6-DoF Grasps](https://arxiv.org/pdf/2302.10745.pdf).
 
 ![example](files/overview.png) 
 
 
 ## Installation
 
-This code has been tested with python 3.6, PyTorch 1.4 and CUDA 10.0 on Ubuntu
+This code has been tested with Python 3.6, PyTorch 1.4, and CUDA 10.0 on Ubuntu
 18.04. To install do
 
 1) `pip3 install torch==1.4.0+cu100 torchvision==0.5.0+cu100 -f <https://download.pytorch.org/whl/torch_stable.html>`
@@ -20,7 +20,7 @@ This code has been tested with python 3.6, PyTorch 1.4 and CUDA 10.0 on Ubuntu
 
 5) `cd pytorch_6dof-graspnet`
 
-6) Run `pip3 install -r requirements.txt` to install necessary python libraries.
+6) Run `pip3 install -r requirements.txt` to install the necessary Python libraries.
 
 7) (Optional) Download the trained models either by running `sh
    checkpoints/download_models.sh` or manually from [here](). Trained
@@ -35,15 +35,19 @@ You have three options to get the dataset:
 
 The default position to place the dataset is in the `/dataset/` folder.
 
+## Generate a new dataset (Optional)
+
+To generate a new CONG dataset, please use [this code](https://github.com/jsll/CONG).
+
 ## Training
 
-To train the position constrained grasp sampler or the evaluator with bare minimum configurations run:
+To train the position-constrained grasp sampler or the evaluator with bare minimum configurations, run:
 
 ```shell
 python3 train.py 
 ```
 
-To train the evaluator run:
+To train the evaluator, run:
 
 ```shell
 python3 train.py 
