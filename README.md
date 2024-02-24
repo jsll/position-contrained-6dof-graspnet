@@ -10,7 +10,7 @@ This repository provides the code for training VCGS, a position-constrained gene
 This code has been tested with Python 3.6, PyTorch 1.4, and CUDA 10.0 on Ubuntu
 18.04. To install do
 
-1) `pip3 install torch==1.4.0+cu100 torchvision==0.5.0+cu100 -f <https://download.pytorch.org/whl/torch_stable.html>`
+1) `pip3 install torch==1.4.0+cu100 torchvision==0.5.0+cu100 -f https://download.pytorch.org/whl/torch_stable.html`
 
 2) Clone this repository: `git clone git@github.com:jsll/pytorch_6dof-graspnet.git`.
 
