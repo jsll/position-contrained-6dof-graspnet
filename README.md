@@ -23,7 +23,7 @@ This code has been tested with Python 3.6, PyTorch 1.4, and CUDA 10.0 on Ubuntu
 6) Run `pip3 install -r requirements.txt` to install the necessary Python libraries.
 
 7) (Optional) Download the trained models either by running `sh
-   checkpoints/download_models.sh` or manually from [here](). Trained
+   checkpoints/download_models.sh` or manually from [here](https://drive.google.com/uc?export=download&id=1B0EeVlHbYBki__WszkbY8A3Za941K8QI). Trained
    models are released under [CC-BY-NC-SA 2.0](TRAINED_MODEL_LICENSE).
 
 ## Download the dataset
